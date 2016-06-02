@@ -1,3 +1,7 @@
 Would you want to use a remote repository rather than keeping all your work local?
 
 Using a remote repository seems like a good idea because I would be able to work along side many other developers with on the same project. This could mean more efficency and more eyes on the code.
+
+PROMPT:Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Files may be in the middle of being update. Thus, pushing/pulling onto GitHub prematurely could result in unfinished business.
