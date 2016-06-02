@@ -13,3 +13,7 @@ Forks are “clones” specifically on the GitHub website. This is a term used b
 PROMPT:What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Having the last known state of the remote stored locally reaps benefits such as working on the most current files and their statuses. So for example, updates are being brought that don't need to be brought.
+
+PROMPT:How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Usually to collaborate without using GitHub or Git, my buddies and I would just code in the same room. This would be easy because we could communicate easily to each other but would be harder since we couldn’t see obvious changes to code and the code wouldn’t get update automatically.
