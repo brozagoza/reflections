@@ -1,0 +1,24 @@
+PROMPT: How did viewing a diff between two versions help you spot
+the bug?
+
+Using diff helped spot the bug since it only brought lines that
+were different among the two files to my attention. Bringing these
+lines to my attention, I was able to easily notive the difference
+, or typos, made in the new file.
+
+
+PROMPT: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Whenever files are upated and are seen to not be working correctly anymore, steping backwards in time could prove to be very useful because I would be able to see code that worked and compare it to my new code. Having access to it would relieve a huge burden as I would not have to save it manually.
+
+PROMPT: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros of having to manually choose a git can be knowing exactly what caliber of changes one wants each checkpoint to contain. A con could be forgetting to save often and saving at odd locations.
+
+PROMPT: How can you use the commands git log and git diff to view the history of files?
+
+Using git log I can scroll through and judging by the comments that’s when I know what meaningful changes occurred. From there, I can use git diff and other IDs to see what exactly these changes proposed.
+
+PROMPT: Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using git for some android development projects that I will begin after completeing this course.
