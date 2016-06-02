@@ -5,3 +5,7 @@ Using a remote repository seems like a good idea because I would be able to work
 PROMPT:Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Files may be in the middle of being update. Thus, pushing/pulling onto GitHub prematurely could result in unfinished business.
+
+PROMPT:Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are “clones” specifically on the GitHub website. This is a term used by the page. Clones are taking an entire repository and “copy”ing it. Whether it be from a server to your machine, machine to machine, or server to server. Branches are the hierarchical structure of the logs that git has been keeping track of.
