@@ -9,3 +9,7 @@ Files may be in the middle of being update. Thus, pushing/pulling onto GitHub pr
 PROMPT:Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Forks are “clones” specifically on the GitHub website. This is a term used by the page. Clones are taking an entire repository and “copy”ing it. Whether it be from a server to your machine, machine to machine, or server to server. Branches are the hierarchical structure of the logs that git has been keeping track of.
+
+PROMPT:What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having the last known state of the remote stored locally reaps benefits such as working on the most current files and their statuses. So for example, updates are being brought that don't need to be brought.
