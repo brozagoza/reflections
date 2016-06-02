@@ -7,17 +7,27 @@ What value do you think it offers?
 
 The staging area is different from the working directory and the repository as it contains files that are in "limbo." These files are waiting to be committed and can now be committed as such. The other files are untouched and unstaged. 
 
-
-How can you use the staging area to make sure you have one commit per logical
+PROMPT:How can you use the staging area to make sure you have one commit per logical
 change?
 
-What are some situations when branches would be helpful in keeping your history
+Using git diff commands and git diff --staged to see how my change files in the stagin area compare with the already saved commits and the unedited files from before.
+
+PROMPT:What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-How do the diagrams help you visualize the branch structure?
+Branches would be helpful when I want to work on different versions of some code. Meaning, if I want to experiment with already working code but still want to keep unmeshed with code separate. Branches would help because I can make multiple git logs of my different side projects, for my single master project.
 
-What is the result of merging two branches together? Why do we represent it in
+
+PROMPT:How do the diagrams help you visualize the branch structure?
+
+The diagrams help tremendously when trying to visualize the branch structure since the branch structure on the terminal is just a list. Branches break off and form other “lists” and a diagram helps visualize just that.
+
+PROMPT:What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
+Margin two branches together creates a bridge between the two branches and creates a new ‘commit.’ Representing it the way it is in the diagram is important because this new merged commit has TWO parents.
+
+PROMPT:What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+GIt's automatic merging is nice because it rules out which code that has been altered needs to be merge together. When it finds a confilit, it asks the user to resolve it by removing what code the user would like to use from the two options. Doing these merges manually would be quite tedious. While manually would in fact ensure the most accurate code is being copied over, the merge feature works well. It is very nice for large projects.
